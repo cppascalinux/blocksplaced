@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "blocksplaced",
+	"version": "1.0.0",
+	"name": "BlocksPlaced",
+	"description": "A minecraft mod adding a scoreboard objective counting the total number of blocks a player has placed",
+	"authors": [
+		"cppascalinux"
+	],
+	"contact": {
+		"sources": "https://github.com/cppascalinux"
+	},
+	"license": "CC-BY-SA 4.0",
+	"icon": "assets/blocksplaced/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cppascalinux.blockplaced.BlocksPlaced"
+		]
+	},
+	"mixins": [
+		"blocksplaced.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
