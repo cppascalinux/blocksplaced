@@ -1,4 +1,4 @@
-package cppascalinux.blockplaced.mixin;
+package cppascalinux.blocksplaced.mixin;
 
 import net.minecraft.world.World;
 
@@ -7,12 +7,11 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+import cppascalinux.blocksplaced.BlocksPlaced;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.ActionResult;
-
-import cppascalinux.blockplaced.BlocksPlaced;
 
 @Mixin(BlockItem.class)
 public class BlockPlaceHook {

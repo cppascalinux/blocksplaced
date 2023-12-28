@@ -1,9 +1,10 @@
 {
 	"required": true,
-	"package": "cppascalinux.blockplaced.mixin",
+	"package": "cppascalinux.blocksplaced.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"BlockPlaceHook"
+		"BlockPlaceHook",
+		"BlockBreakHook"
 	],
 	"injectors": {
 		"defaultRequire": 1
